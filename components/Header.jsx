@@ -8,20 +8,24 @@ import MoblieNav from './MoblieNav';
 import { usePathname } from 'next/navigation';
 
 
-export const Header = () => {
+const Header = () => {
     const [header, setHeader] = useState(false);
     const pathname = usePathname();
 
-useEffect(()=>{
-    const scrollYPos = window.addEventListener('scroll', ()=>{
-        window.scrollY > 50 ? setHeader(true) : setHeader(false);
+    useEffect(() => {
+        const scrollYPos = window.addEventListener('scroll', () => {
+            window.scrollY > 50 ? setHeader(true) : setHeader(false);
+        });
+
+        return () => window.removeEventListener('scroll', scrollYPos);
     });
 
-    return ()=> window.removeEventListener('scroll', scrollYPos);
-});
-
     return (
-        <header className={`${header ? 'py-4 bg-white shadown-lg dark:bg-accent' : 'py-5 dark:bg-transparent'}sticky top-0 z-30 transition-all`}>
+        <header className={`${header
+            ? 'py-4 bg-white shadown-lg dark:bg-accent'
+            : 'py-5 dark:bg-transparent'} sticky top-0 z-30 transition-all`}
+        >
+
             <div className="container mx-auto">
                 <div className="flex justify-between items-center">
                     <Logo />

@@ -35,10 +35,11 @@ const Hero = () => {
                 Entra em contato
                 </Button>
               </Link>
-              <Button variant='secundary' className= 'gap-x-2'><Download size={18}/>
+              <Button variant='secondary' className= 'gap-x-2'><Download size={18}/>
                 Baixar CV
                 </Button>
             </div>
+                <Socials containerStyles='flex gap-x-6 mx-auto xl:mx-0' iconsStyles='text-foreground text-[22px] hover:text-primary transition-all'/>
           </div>
           {/* imagem */}
           <div className="hidden flex-relative">imagem</div>
