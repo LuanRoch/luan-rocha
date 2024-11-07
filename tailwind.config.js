@@ -9,6 +9,12 @@ module.exports = {
 		"./app/**/*.{js,ts,jsx,tsx,mdx}",
 	],
 	theme: {
+		screens: {
+			sm: '640px',
+			md: '768px',
+			lg: '1024px',
+			xl: '1400px',
+		},
 		extend: {
 			colors: {
 				background: 'hsl(var(--background))',
@@ -65,16 +71,16 @@ module.exports = {
 					form: { height: "var(--radix-accordion-content-height)" },
 					to: { height: 0 },
 				},
-				animate:{
-					"accordion-down":"accordion-down 0.2s ease-out",
-					"accordion-up":"accordion-up 0.2s ease-out",
+				animate: {
+					"accordion-down": "accordion-down 0.2s ease-out",
+					"accordion-up": "accordion-up 0.2s ease-out",
 
 				}
 			},
 			backgroundImage: {
 				hero: 'url(/hero/hero-bg.png)',
-				dots_light:'url(/dots-light.svg)',
-				dots_dark:'url(/dots-dark.svg)',
+				dots_light: 'url(/dots-light.svg)',
+				dots_dark: 'url(/dots-dark.svg)',
 
 			},
 		},
