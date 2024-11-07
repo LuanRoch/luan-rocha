@@ -71,16 +71,16 @@ const skillData = [
         title: 'skills',
         data: [
             {
-                name: 'HTML, CSS, REACT, NEXTJS',
+                name: 'Tecnologias Front-end',
             },
             {
-                name: 'Front-end develope',
-            },
-            {
-                name: 'PHP, JAVA,',
+                name: 'HTML, CSS, React, JavaScript, TypeScript BootStrap',
             },
             {
                 name: 'Back-end development',
+            },
+            {
+                name: 'PHP, JAVA,',
             },
         ]
     },
@@ -88,17 +88,45 @@ const skillData = [
         title: 'Software',
         data: [
             {
-                imgPath: '/about/vscode.svg',
+                imgPath: '/about/html.png',
             },
             {
-                imgPath: '/about/figma.svg',
+                imgPath: '/about/css.png',
             },
             {
-                imgPath: '/about/notion.svg',
+                imgPath: '/about/React.png',
             },
             {
-                imgPath: '/about/wordpress.svg',
+                imgPath: '/about/js.png',
             },
+            {
+                imgPath: '/about/typescript.png',
+            },
+            {
+                imgPath: '/about/bootstrap.png',
+            },
+            {
+                imgPath: '/about/NodeJs.png',
+            },
+            {
+                imgPath: '/about/Git.png',
+            },
+            {
+                imgPath: '/about/github.png',
+            },
+            {
+                imgPath: '/about/node-RED.png',
+            },
+            {
+                imgPath: '/about/office.png',
+            },
+            {
+                imgPath: '/about/vscode.png',
+            },
+            {
+                imgPath: '/about/windows.png',
+            },
+
 
         ]
     }
@@ -118,7 +146,7 @@ const About = () => {
                 <div className="flex flex-col xl:flex-row">
                     {/* imagem */}
                     <div className="hidden xl:flex flex-1 relative">
-                        <DevImg containerStyles='w-[505px] h-[505px] bg-no-repeat relative' />
+                        {/* <DevImg containerStyles='w-[505px] h-[505px] bg-no-repeat relative' /> */}
                     </div>
                     {/* tabs */}
                     <div className="flex-1">
@@ -217,16 +245,16 @@ const About = () => {
                                 </TabsContent>
                                 <TabsContent value="skills">
                                     <div className="text-center xl:text-left">
-                                        <h3 className="h3 mb-8">Tecnlogias que eu uso no meu dia a dia</h3>
+                                        <h3 className="h3 mb-8">Tecnologias que eu uso no meu dia a dia</h3>
                                         <div className="mb-16">
-                                            <h4 className="text-xl font-semibold mb-2">Habilidades</h4>
+                                            <h2 className="text-xl mb-2 text-primary">Habilidades</h2>
                                             <div className="border-b border-border mb-4"></div>
 
                                             <div>
                                                 {getData(skillData, 'skills').data.map((item, index) => {
                                                     const { name } = item;
                                                     return (
-                                                        <div className="w-2/4 text-center xl:text-left mx-auto xl:mx-0" key={index}>
+                                                        <div className=" text-center xl:text-left mx-auto xl:mx-0 subtitle" key={index}>
                                                             <div>{name}</div>
                                                         </div>
                                                     );
@@ -235,7 +263,7 @@ const About = () => {
                                         </div>
 
                                         <div>
-                                            <h4 className="text-xl font-semibold mb-2 xl:text-left">Tools</h4>
+                                            <h4 className="text-xl font-semibold mb-2 xl:text-left text-primary">Tools</h4>
                                             <div className="border-b border-border mb-4"></div>
                                             <div className="flex gap-x-8 justify-center xl:justify-start">
                                                 {getData(skillData, 'Software').data.map((item, index) => {
