@@ -99,3 +99,7 @@ body {
   before:w-[24px] before:h-[24px];
   
 }
+
+.swiper-horizontal > .section-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullets {
+  @apply bg-primary;
+}

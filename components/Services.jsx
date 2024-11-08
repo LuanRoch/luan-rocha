@@ -1,4 +1,4 @@
-import { GanttChartSquare, Blocks, Gem } from 'lucide-react'
+import { GanttChartSquare, Blocks, Workflow } from 'lucide-react'
 import {
     Card,
     CardContent,
@@ -21,7 +21,7 @@ const ServicesData = [
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud ',
     },
     {
-        icon: <Gem size={72} strokeWidth={0.8} />,
+        icon: <Workflow size={72} strokeWidth={0.8} />,
         title: 'node_RED',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud ',
     },

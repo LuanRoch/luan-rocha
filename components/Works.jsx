@@ -15,59 +15,59 @@ import { Swiper, SwiperSlide} from "swiper/react";
 const projectData = [
     {
         image: '/work/3.png',
-        category: 'React js',
+        category: 'Vue js',
         name: 'name',
         description:
-            ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum alias error natus molestias veritatis no impedit placeat eveniet consectetur esse? Nam quos mollitia obcaecati eligendi at suscipit unde modi temporibus',
+            ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum alias error',
         link: '/',
         github: '/'
     },
     {
         image: '/work/2.png',
-        category: 'React js',
+        category: 'Next js',
         name: 'name',
         description:
-            ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum alias error natus molestias veritatis no impedit placeat eveniet consectetur esse? Nam quos mollitia obcaecati eligendi at suscipit unde modi temporibus',
+            ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum alias error',
         link: '/',
         github: '/'
     },
     {
         image: '/work/1.png',
-        category: 'React js',
+        category: 'node-RED',
         name: 'name',
         description:
-            ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum alias error natus molestias veritatis no impedit placeat eveniet consectetur esse? Nam quos mollitia obcaecati eligendi at suscipit unde modi temporibus',
+            ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum alias error',
         link: '/',
         github: '/'
     },
     {
         image: '/work/3.png',
-        category: 'React js',
+        category: 'E-mail digital',
         name: 'name',
         description:
-            ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum alias error natus molestias veritatis no impedit placeat eveniet consectetur esse? Nam quos mollitia obcaecati eligendi at suscipit unde modi temporibus',
+            ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum alias error',
         link: '/',
         github: '/'
     },
     {
         image: '/work/2.png',
-        category: 'React js',
+        category: 'Python',
         name: 'name',
         description:
-            ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum alias error natus molestias veritatis no impedit placeat eveniet consectetur esse? Nam quos mollitia obcaecati eligendi at suscipit unde modi temporibus',
+            ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum alias error',
         link: '/',
         github: '/'
     },
     {
         image: '/work/1.png',
-        category: 'React js',
+        category: 'IA',
         name: 'name',
         description:
-            ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum alias error natus molestias veritatis no impedit placeat eveniet consectetur esse? Nam quos mollitia obcaecati eligendi at suscipit unde modi temporibus',
+            ' Lorem ipsum dolor sit amet consectetur adipisicing elit.',
         link: '/',
         github: '/'
     }
-];
+  ];
 
 
 const Works = () => {
@@ -75,22 +75,22 @@ const Works = () => {
         <section className='relative mb-12 xl:mb-48'>
             <div className="container mx-auto">
 
-                <div className='max-w-[400px] mx-auto xl:mx-0 text-center xl:text-left mb-12 xl:h-[400px] flex flex-col justify-center text-center xl:items-start'>
+                <div className='max-w-[400px] mx-auto xl:mx-0 text-center xl:text-left mb-12 xl:h-[400px] flex flex-col justify-center items-center xl:items-start'>
                     <h2 className="section-titlte mb-4">Projetos recentes</h2>
                     <p className="subtitle mb-8">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     <Link href='/projects'><Button>Todos os projetos</Button></Link>
                 </div>
                 <div className='xl:max-w-[1000px] xl:absolute right-0 top-0'>
                     <Swiper
-                        className='h-[480px] bg-pink-100'
-                        sliderPerView={1}
+                        className='h-[480px]'
+                        slidesPerView={1}
                         breakpoints={{
                             640: {
-                                sliderPerView: 2
-                            }
+                                slidesPerView: 2,
+                            },
                         }}
                         spaceBetween={30}
-                        modules={Pagination}
+                        modules={[Pagination]}
                         pagination={{ clickable: true }}
                     >
                         {projectData.slice(0.4).map((project, index) => {
