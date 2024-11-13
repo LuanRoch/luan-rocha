@@ -6,58 +6,58 @@ import ProjectCard from "@/components/ProjectCard";
 
 const projectData = [
   {
-    image: '/work/3.png',
-    category: 'ReactJs',
-    name: 'name',
-    description:
-      ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum alias error',
-    link: '/',
-    github: '/'
+      image: '/work/ApiCnpj.jpg',
+      category: 'Vue js',
+      name: 'name',
+      description:
+          ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum alias error',
+      link: '/',
+      github: '/'
   },
   {
-    image: '/work/2.png',
-    category: 'ReactJs',
-    name: 'name',
-    description:
-      ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum alias error',
-    link: '/',
-    github: '/'
+      image: '/work/',
+      category: 'Next js',
+      name: 'name',
+      description:
+          ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum alias error',
+      link: '/',
+      github: '/'
   },
   {
-    image: '/work/1.png',
-    category: 'node-RED',
-    name: 'name',
-    description:
-      ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum alias error',
-    link: '/',
-    github: '/'
+      image: '/work/',
+      category: 'node-RED',
+      name: 'name',
+      description:
+          ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum alias error',
+      link: '/',
+      github: '/'
   },
   {
-    image: '/work/3.png',
-    category: 'E-mail digital',
-    name: 'name',
-    description:
-      ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum alias error',
-    link: '/',
-    github: '/'
+      image: '/work/',
+      category: 'E-mail digital',
+      name: 'name',
+      description:
+          ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum alias error',
+      link: '/',
+      github: '/'
   },
   {
-    image: '/work/2.png',
-    category: 'ReactJs',
-    name: 'name',
-    description:
-      ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum alias error',
-    link: '/',
-    github: '/'
+      image: '/work/',
+      category: 'Python',
+      name: 'name',
+      description:
+          ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum alias error',
+      link: '/',
+      github: '/'
   },
   {
-    image: '/work/1.png',
-    category: 'ReactJs',
-    name: 'name',
-    description:
-      ' Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-    link: '/',
-    github: '/'
+      image: '/work/',
+      category: 'IA',
+      name: 'name',
+      description:
+          ' Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+      link: '/',
+      github: '/'
   }
 ];
 

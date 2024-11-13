@@ -9,15 +9,15 @@ import Link from 'next/link';
 
 const icons = [
   {
-    path: '/',
+    path: 'https://www.linkedin.com/in/luan-rocha1/',
     name: <RiLinkedinFill />,
   },
   {
-    path: '/',
+    path: 'https://github.com/LuanRoch',
     name: <RiGithubFill />,
   },
   {
-    path: '/',
+    path: 'https://www.instagram.com/luanroch_/',
     name: <RiInstagramFill />,
   },
 ];

@@ -14,25 +14,25 @@ import { Swiper, SwiperSlide} from "swiper/react";
 
 const projectData = [
     {
-        image: '/work/3.png',
-        category: 'Vue js',
-        name: 'name',
+        image: '/work/ApiCnpj.jpg',
+        category: 'ReactJs',
+        name: 'Consulta de Cnpj',
         description:
             ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum alias error',
         link: '/',
         github: '/'
     },
     {
-        image: '/work/2.png',
-        category: 'Next js',
-        name: 'name',
+        image: '/work/EmailDigital.jpg',
+        category: 'Email-Digital',
+        name: 'email-digital',
         description:
             ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum alias error',
         link: '/',
         github: '/'
     },
     {
-        image: '/work/1.png',
+        image: '/work/',
         category: 'node-RED',
         name: 'name',
         description:
@@ -41,7 +41,7 @@ const projectData = [
         github: '/'
     },
     {
-        image: '/work/3.png',
+        image: '/work/',
         category: 'E-mail digital',
         name: 'name',
         description:
@@ -50,7 +50,7 @@ const projectData = [
         github: '/'
     },
     {
-        image: '/work/2.png',
+        image: '/work/',
         category: 'Python',
         name: 'name',
         description:
@@ -59,7 +59,7 @@ const projectData = [
         github: '/'
     },
     {
-        image: '/work/1.png',
+        image: '/work/',
         category: 'IA',
         name: 'name',
         description:

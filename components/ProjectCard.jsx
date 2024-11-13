@@ -12,7 +12,7 @@ const ProjectCard = ({ project }) => {
         <div className='relative w-full h-[300px] flex items-center justify-center bg-tertiary dark:bg-secondary/40 xl:bg-no-repeat overflow-hidden'>
           <Image
             className='absolute bottom-0 shadow-2xl'
-            src={project.Image}
+            src={project.image}
             width={247}
             height={250}
             alt=''

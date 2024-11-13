@@ -29,17 +29,19 @@ const Hero = () => {
               eficazes e inovadoras no campo da Tecnologia da Informação. Atualmente, atuo como Especialista em Suporte de TI,
               com experiência sólida na eficiente organização de cabos de rede e configuração avançada de switches. Destaco-me no
               atendimento a usuários, resolvendo questões de conectividade e desempenho de maneira proativa.</p>
-            <div className="flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0 mb-12">
-              <Link href= '/contact'>
-                <Button className= 'gap-x-2'><Send size={18}/>
-                Entra em contato
+            <div className="flex flex-col gap-y-2 md:flex-row gap-x-3 mx-auto xl:mx-0 mb-12">
+              <Link href='/contact'>
+                <Button className='gap-x-2'><Send size={18} />
+                  Entra em contato
                 </Button>
               </Link>
-              <Button variant='secondary' className= 'gap-x-2'><Download size={18}/>
-                Baixar CV
+              <Link href={'https://drive.google.com/file/d/1ZqjvYT9xm1eqevEjscdN9sbW6e0R7vO4/view?usp=drive_link'}>
+                <Button variant='secondary' className='gap-x-2'><Download size={18} />
+                  Baixar CV
                 </Button>
+              </Link>
             </div>
-                <Socials containerStyles='flex gap-x-6 mx-auto xl:mx-0' iconsStyles='text-foreground text-[22px] hover:text-primary transition-all'/>
+            <Socials containerStyles='flex gap-x-6  mx-auto xl:mx-0' iconsStyles='text-foreground text-[22px] hover:text-primary transition-all' />
           </div>
           {/* imagem */}
           <div className="hidden flex-relative">imagem</div>
