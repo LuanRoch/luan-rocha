@@ -1,6 +1,5 @@
 'use client';
 import React, { useState, useEffect } from 'react';
-
 import Logo from './Logo'
 import ThemeToggle from './ThemeToggle'
 import Nav from './Nav'
