@@ -16,9 +16,12 @@ const Formulario = () => {
         <MailIcon className='absolute right-6' size={20}/>
     </div>
     <div className='relative flex items-center'>
-        <Textarea type='name' id='name' placeholder='Nome'/>
-        <MessageSquare className='absolute right-6' size={20}/>
+        <Textarea placeholder='Escreva sua mensagem aqui.'/>
+        <MessageSquare className='absolute top-4 right-6' size={20}/>
     </div>
+    <Button className ='flex items-center gap-x-1 max-w-[166px]'>Enviar
+<ArrowRightIcon size={20}/>
+    </Button>
 </form>
 );
 }
