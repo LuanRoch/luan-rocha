@@ -7,17 +7,26 @@ import ProjectCard from "@/components/ProjectCard";
 const projectData = [
   {
       image: '/work/ApiCnpj.jpg',
-      category: 'Vue js',
-      name: 'name',
+      category: 'ReactJs',
+      name: 'Consulta de Cnpj',
       description:
           ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum alias error',
       link: '/',
       github: '/'
   },
   {
-      image: '/work/',
-      category: 'Next js',
-      name: 'name',
+      image: '/work/EmailDigital.jpg',
+      category: 'Email-Digital',
+      name: 'email-digital',
+      description:
+          ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum alias error',
+      link: '/',
+      github: '/'
+  },
+  {
+      image: '/work/LandingPage.jpg',
+      category: 'HTML CSS',
+      name: 'landing page Caed 2019',
       description:
           ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum alias error',
       link: '/',
@@ -32,33 +41,7 @@ const projectData = [
       link: '/',
       github: '/'
   },
-  {
-      image: '/work/',
-      category: 'E-mail digital',
-      name: 'name',
-      description:
-          ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum alias error',
-      link: '/',
-      github: '/'
-  },
-  {
-      image: '/work/',
-      category: 'Python',
-      name: 'name',
-      description:
-          ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum alias error',
-      link: '/',
-      github: '/'
-  },
-  {
-      image: '/work/',
-      category: 'IA',
-      name: 'name',
-      description:
-          ' Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-      link: '/',
-      github: '/'
-  }
+  
 ];
 
 const uniqueCategories = ['Todos os projetos', ...new Set(projectData.map(item => item.category))];
