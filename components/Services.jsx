@@ -13,17 +13,17 @@ const ServicesData = [
     {
         icon: <GanttChartSquare size={72} strokeWidth={0.8} />,
         title: 'APi CNPJ',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud ',
+        description: 'Este projeto é uma aplicação web desenvolvida com ReactJS, TypeScript, Axios e Material-UI. A aplicação consome a API BrasilAPI',
     },
     {
         icon: <Blocks size={72} strokeWidth={0.8} />,
-        title: 'Landing page',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud ',
+        title: 'Email Html',
+        description: 'Este e-mail HTML é destinado a clientes interessados em investir em Letras de Crédito do Agronegócio (LCA) oferecidas pelo Banco CNH Capital S.A. ',
     },
     {
         icon: <Workflow size={72} strokeWidth={0.8} />,
-        title: 'node_RED',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud ',
+        title: 'Landing page',
+        description: 'Este projeto visa desenvolver uma landing page intuitiva e moderna para o CAEd (Centro de Políticas Públicas e Avaliação da Educação), sediado em Juiz de Fora. ',
     },
 ];
 const Services = () => {

@@ -24,10 +24,10 @@ const projectData = [
     },
     {
         image: '/work/EmailDigital.jpg',
-        category: 'Email-Digital',
-        name: 'email-digital',
+        category: 'Email-HTML',
+        name: 'email',
         description:
-            ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum alias error',
+            ' Este e-mail HTML é destinado a clientes interessados em investir em Letras de Crédito do Agronegócio (LCA) oferecidas pelo Banco CNH Capital S.A. ',
         link: '/',
         github: '/'
     },
@@ -36,19 +36,19 @@ const projectData = [
         category: 'HTML CSS',
         name: 'landing page Caed 2019',
         description:
-            ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum alias error',
+            'Este projeto visa desenvolver uma landing page intuitiva e moderna para o CAEd (Centro de Políticas Públicas e Avaliação da Educação), sediado em Juiz de Fora. ',
         link: '/',
         github: '/'
     },
-    {
-        image: '/work/',
-        category: 'node-RED',
-        name: 'name',
-        description:
-            ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum alias error',
-        link: '/',
-        github: '/'
-    },
+    // {
+    //     image: '/work/',
+    //     category: 'node-RED',
+    //     name: 'name',
+    //     description:
+    //         ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum alias error',
+    //     link: '/',
+    //     github: '/'
+    // },
     
   ];
 
@@ -60,7 +60,7 @@ const Works = () => {
 
                 <div className='max-w-[400px] mx-auto xl:mx-0 text-center xl:text-left mb-12 xl:h-[400px] flex flex-col justify-center items-center xl:items-start'>
                     <h2 className="section-titlte mb-4">Projetos recentes</h2>
-                    <p className="subtitle mb-8">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p className="subtitle mb-8"></p>
                     <Link href='/projects'><Button>Todos os projetos</Button></Link>
                 </div>
                 <div className='xl:max-w-[1000px] xl:absolute right-0 top-0'>

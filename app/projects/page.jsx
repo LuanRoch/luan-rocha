@@ -10,16 +10,16 @@ const projectData = [
       category: 'ReactJs',
       name: 'Consulta de Cnpj',
       description:
-          ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum alias error',
+          'Sistema de Consumo de API com React, TypeScript, Axios e Material-UI',
       link: '/',
       github: '/'
   },
   {
       image: '/work/EmailDigital.jpg',
-      category: 'Email-Digital',
-      name: 'email-digital',
+      category: 'Email-HTML',
+      name: 'email',
       description:
-          ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum alias error',
+          ' Este e-mail HTML é destinado a clientes interessados em investir em Letras de Crédito do Agronegócio (LCA) oferecidas pelo Banco CNH Capital S.A. ',
       link: '/',
       github: '/'
   },
@@ -28,21 +28,22 @@ const projectData = [
       category: 'HTML CSS',
       name: 'landing page Caed 2019',
       description:
-          ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum alias error',
+          'Este projeto visa desenvolver uma landing page intuitiva e moderna para o CAEd (Centro de Políticas Públicas e Avaliação da Educação), sediado em Juiz de Fora. ',
       link: '/',
       github: '/'
   },
-  {
-      image: '/work/',
-      category: 'node-RED',
-      name: 'name',
-      description:
-          ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum alias error',
-      link: '/',
-      github: '/'
-  },
+  // {
+  //     image: '/work/',
+  //     category: 'node-RED',
+  //     name: 'name',
+  //     description:
+  //         ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum alias error',
+  //     link: '/',
+  //     github: '/'
+  // },
   
 ];
+
 
 const uniqueCategories = ['Todos os projetos', ...new Set(projectData.map(item => item.category))];
 
