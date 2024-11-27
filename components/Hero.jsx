@@ -9,8 +9,7 @@ import {
   RiArrowDownSLine,
 } from 'react-icons/ri';
 
-import DevImg from "./DevImg";
-import Badge from "./Badge";
+
 import Socials from "./Socials";
 
 
